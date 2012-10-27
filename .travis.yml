@@ -4,5 +4,5 @@ language: ruby
 rvm:
   - 1.9.3
 script:
-  - "wget https://raw.github.com/mark-rushakoff/OpenPhantomScripts/master/phantom-qunit.js"
+  - "wget https://raw.github.com/henzk/OpenPhantomScripts/issue1/phantom-qunit.js"
   - "phantomjs phantom-qunit.js test_curdsoap.html"
